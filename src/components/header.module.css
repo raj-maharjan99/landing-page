@@ -1,7 +1,36 @@
 .headerBox {
   background-color: rgb(187, 196, 193);
   height: 100px;
-  width: auto;
+  width: 100%;
   text-align: center;
   padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.headerBox li {
+  list-style: none;
+  margin: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  padding-top: 50px;
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading {
+  color: rgb(46, 37, 37);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  position: fixed;
+  right: 40%;
+  top: 40px;
 }
