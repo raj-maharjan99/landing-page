@@ -41,3 +41,11 @@
   color: white;
   cursor: pointer;
 }
+.modalContainer h3 {
+  background-color: yellow;
+  border-radius: 20px;
+}
+.modalContainer h4 {
+  background-color: rgba(186, 208, 212, 0.831);
+  border-radius: 20px;
+}

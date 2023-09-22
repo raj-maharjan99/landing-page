@@ -33,7 +33,12 @@ function Advertisment() {
           <br /> <br />
           <button className={styles.btn} onClick={() => setShowModal(false)}>
             "बन्द गर्नुहोस्"
-          </button>
+          </button>{" "}
+          <br />
+          <br />
+          <a href="https://www.indeed.com/" target="_blank">
+            <h5>more details </h5>
+          </a>
         </div>
       </>
     );
