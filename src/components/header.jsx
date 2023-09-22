@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <div className={styles.headerBox}>
-        <div className={styles.heading}>TEAM-1 FBD36</div>
+        <div className={styles.heading}>TEAM-2 FBD36</div>
         <li>
           <a href="">
             <h4>Home</h4>
