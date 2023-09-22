@@ -18,9 +18,10 @@
   max-width: 30rem;
   padding: 2rem 3rem;
   border-radius: 1rem;
-  background-color: rgb(188, 139, 139);
+  background-color: rgba(188, 139, 139, 0.68);
   text-align: center;
   margin: 20px;
+  border: 7px double black;
 }
 .btn {
   padding: 0.6rem 1.4rem;
