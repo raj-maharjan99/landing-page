@@ -2,23 +2,23 @@
   margin: 5rem;
 }
 
-/* .modalWrapper {
+.modalCover {
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
-  background-color: rgba(235, 204, 167, 0.982);
-} */
+  background-color: rgba(235, 205, 167, 0.754);
+}
 .modalContainer {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 30rem;
+  min-height: auto;
   padding: 2rem 3rem;
   border-radius: 1rem;
-  background-color: rgba(188, 139, 139, 0.68);
+  background-color: rgb(188, 139, 139);
   text-align: center;
   margin: 20px;
   border: 7px double black;
@@ -44,9 +44,9 @@
 }
 .modalContainer h3 {
   background-color: yellow;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .modalContainer h4 {
   background-color: rgba(186, 208, 212, 0.831);
-  border-radius: 20px;
+  border-radius: 10px;
 }

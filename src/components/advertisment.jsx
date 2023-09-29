@@ -7,7 +7,7 @@ function Advertisment() {
     return (
       <>
         <div
-          className={styles.modalWrapper}
+          className={styles.modalCover}
           onClick={() => setShowModal(false)}
         ></div>
         <div className={styles.modalContainer}>
@@ -17,9 +17,9 @@ function Advertisment() {
           <br />
           <p>
             {" "}
-            <h2>
+            <h3>
               "रेलको चक्का मा हावा हाल्न जान्ने एक मेहनती कामदारको आवश्यक्ता।"
-            </h2>
+            </h3>
             <br />
             <br />
             <h4>
