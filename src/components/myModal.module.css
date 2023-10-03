@@ -1,0 +1,48 @@
+.modalCover {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(235, 205, 167, 0.754);
+}
+.modalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: auto;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  background-color: rgb(188, 139, 139);
+  text-align: center;
+  margin: 20px;
+  border: 7px double black;
+}
+.btn {
+  padding: 0.6rem 1.4rem;
+  font-size: 15px;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(198, 207, 203);
+  color: rgb(10, 1, 1);
+  cursor: pointer;
+  border: 1px dotted black;
+}
+.btn1 {
+  padding: 0.6rem 1.4rem;
+  font-size: 15px;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(65, 70, 66);
+  color: white;
+  cursor: pointer;
+}
+.modalContainer h3 {
+  background-color: yellow;
+  border-radius: 10px;
+}
+.modalContainer h4 {
+  background-color: rgba(186, 208, 212, 0.831);
+  border-radius: 10px;
+}
