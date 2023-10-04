@@ -18,20 +18,19 @@
   min-height: auto;
   padding: 2rem 3rem;
   border-radius: 1rem;
-  background-color: rgb(188, 139, 139);
+  background-color: rgba(188, 139, 139, 0);
   text-align: center;
   margin: 20px;
-  border: 7px double black;
+  display: flex;
+  flex-direction: column;
 }
 .btn {
-  padding: 0.6rem 1.4rem;
-  font-size: 15px;
+  font-size: 10px;
   border: none;
-  border-radius: 2rem;
-  background-color: rgb(198, 207, 203);
+  border-radius: 20px;
+  background-color: rgb(122, 40, 216);
   color: rgb(10, 1, 1);
   cursor: pointer;
-  border: 1px dotted black;
 }
 .btn1 {
   padding: 0.6rem 1.4rem;

@@ -11,15 +11,15 @@ function Advertisment() {
           onClick={() => setShowModal(false)}
         ></div>
         <div className={styles.modalContainer}>
-          <img
-            src="https://templates.mediamodifier.com/622b3b11eeac98ae75351537/job-vacancy-retails-template.jpg"
-            height="500px"
-            width="400px"
-            alt=""
-          />
           <button className={styles.btn} onClick={() => setShowModal(false)}>
             "बन्द गर्नुहोस्"
           </button>
+          <img
+            src="https://templates.mediamodifier.com/622b3b11eeac98ae75351537/job-vacancy-retails-template.jpg"
+            height="250px"
+            width="200px"
+            alt=""
+          />
         </div>
       </>
     );
